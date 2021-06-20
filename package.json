@@ -1,0 +1,25 @@
+{
+  "name": "BKBot",
+  "version": "1.0",
+  "description": "A discord sound bot.",
+  "main": "BKBot.js",
+  "scripts": {
+    "start": "node BKBot.js",
+    "dev": "nodemon BKBot.js"
+  },
+  "keywords": ["Discord", "Bot"],
+  "author": "Berke Kağan Nohut",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "ffmpeg": "0.0.4",
+    "get-audio-duration": "^2.0.3",
+    "node-opus": "^0.3.3",
+    "ytdl-core": "^1.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "nodemon": "^2.0.2"
+  }
+}
