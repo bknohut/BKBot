@@ -66,7 +66,7 @@ client.on('message', async message => {
 		const broadcast = client.voice.createBroadcast();
 		const duration = command.length * 500;
 		const text = command.slice(1).join(' ');
-		broadcast.play(discordTTS.getVoiceStream(text));
+		broadcast.play(discordTTS.getVoiceStream(text, { lang:'tr' }));
 		connection.play(broadcast);
 		setTimeout(() => {
 			globalCommandQueueLock = false;
