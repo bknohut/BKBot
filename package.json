@@ -7,10 +7,14 @@
     "start": "node BKBot.js",
     "dev": "nodemon BKBot.js"
   },
-  "keywords": ["Discord", "Bot"],
+  "keywords": [
+    "Discord",
+    "Bot"
+  ],
   "author": "Berke Kağan Nohut",
   "license": "Apache 2.0",
   "dependencies": {
+    "discord-tts": "^1.2.0",
     "discord.js": "^12.5.3",
     "dotenv": "^8.2.0",
     "ffmpeg": "0.0.4",
